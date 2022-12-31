@@ -3172,10 +3172,10 @@ button.close {
     width: 40px;
   }
   .title {
-    font-size: clamp(40px, 12vw, 60px) !important;
+    font-size: clamp(40px, 12vw, 120px) !important;
   }
   .cat {
-    font-size: clamp(50px, 15vw, 140px);
+    font-size: clamp(50px, 15vw, 120px);
   }
   .mini-title {
     font-size: 2.5rem;
@@ -3213,7 +3213,7 @@ button.close {
     font-size: clamp(21px, 5vw, 91px);
   }
   .write-text2 {
-    /* font-size: clamp(50px, 10vw, 100px); */
+    font-size: clamp(50px, 10vw, 100px);
   }
   #beautiful {
     color: rgba(255, 255, 255, 0.5) !important;
@@ -3313,7 +3313,7 @@ button.close {
   margin-left: 32%;
   font-size: 3rem;
 }
-.colorPar{
+.colorPar {
   color: white;
 }
 /*! ABOUT STYLES END */
