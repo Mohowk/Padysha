@@ -1,13 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
 @font-face {
-  font-family: "SangBleu Empire Trial";
-  src: url("/fonts/SangBleuEmpireTrial-Regular.woff2");
+  font-family: "Cormorant Unicase", serif;
+
+  src: url("../fonts/SangBleuEmpireTrial-Regular.woff2");
   font-display: swap;
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Haigrast";
-  src: url(/fonts/Haigrast.woff2);
+  src: url("../fonts/Haigrast.woff2");
   font-display: swap;
   font-style: normal;
   font-weight: normal;
@@ -15,7 +21,7 @@
 
 @font-face {
   font-family: "Forum";
-  src: url("/fonts/Forum-Regular.woff2");
+  src: url("../fonts/Forum-Regular.woff2");
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -23,7 +29,7 @@
 
 @font-face {
   font-family: "Ubuntu";
-  src: url("/fonts/Ubuntu-Light.ttf");
+  src: url("../fonts/Ubuntu-Light.ttf");
   font-display: swap;
   font-style: normal;
   font-weight: 300;
@@ -174,8 +180,10 @@ section {
   top: 0;
   left: 0;
   display: block;
-  font-size: clamp(60px, 7vw, 140px);
-  text-transform: uppercase;
+  font-size: clamp(70px, 19vw, 150px);
+  /* text-transform: uppercase; */
+  text-transform: capitalize;
+  line-height: 140%;
   white-space: nowrap;
   width: 100%;
   transition: all 1.2s ease;
@@ -198,11 +206,6 @@ section {
     opacity: 0;
 } */
 
-.aaaa_bbbb {
-  /* transition: 500s; */
-  transition: 2s;
-}
-
 .delay-for-preloader {
   transition-delay: 3s !important;
 }
@@ -211,7 +214,8 @@ section {
   height: 2vh;
   width: 9vw;
   font-style: normal;
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   letter-spacing: 1px;
   font-weight: 500;
   font-size: 17px !important;
@@ -393,7 +397,8 @@ nav {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   z-index: 2;
 }
 .cat {
@@ -401,7 +406,7 @@ nav {
   line-height: 130%;
   color: #d0a666;
   /* font-family: Haigrast; */
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
 }
 
 .residents {
@@ -583,6 +588,7 @@ nav {
 }
 section.third {
   background: #f2efea;
+  padding-block: 6em;
 }
 .touch {
   margin-top: -95px;
@@ -848,7 +854,8 @@ section.contacts {
 }
 
 #menu .title {
-  /* font-family: "SangBleu Empire Trial"; */
+  /* font-family: 'Cormorant Unicase', serif;
+ */
   font-style: normal;
   font-weight: normal;
   font-size: clamp(25px, 7vw, 60px);
@@ -1521,7 +1528,8 @@ p.write-text.writeBackText {
 }
 
 .seconSectionTitle2 {
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   font-weight: 400;
   font-size: 134px;
   line-height: 120%;
@@ -1581,7 +1589,8 @@ p.write-text.writeBackText {
     -webkit-transform 2s linear 0s;
 }
 .circleRoundText {
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   font-weight: 400;
   /* font-size: 121px; */
   font-size: clamp(60px, 8vw, 100px);
@@ -1604,7 +1613,8 @@ p.write-text.writeBackText {
 }
 
 .capsYearsNum {
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   font-style: normal;
   font-weight: 400;
   /* font-size: 170px; */
@@ -1772,14 +1782,14 @@ p.write-text.writeBackText {
   color: #d0a666;
 }
 .sectionTitle {
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
   font-style: normal;
   font-weight: 400;
   font-size: clamp(21px, 10vw, 70px);
   line-height: 120%;
   text-transform: uppercase;
+  padding-bottom: 0.8em;
   color: #2e2e2e;
-  padding: 120px 0 60px 0;
 }
 
 .blockSSDText {
@@ -2310,7 +2320,8 @@ button.close {
 }
 
 .valueLetterStyle {
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 70px;
@@ -2438,7 +2449,8 @@ button.close {
   font-weight: 400;
   font-size: 350px;
   text-transform: uppercase;
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   line-height: 1.1;
 }
 
@@ -2585,7 +2597,8 @@ button.close {
 }
 
 .feedbackTitle {
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -2668,7 +2681,8 @@ button.close {
 }
 
 .newsPageTitle {
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 70px;
@@ -2735,7 +2749,8 @@ button.close {
   color: #d0a666;
 }
 .footerMoore {
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -3172,7 +3187,7 @@ button.close {
     width: 40px;
   }
   .title {
-    font-size: clamp(40px, 12vw, 120px) !important;
+    font-size: clamp(40px, 10vw, 100px) !important;
   }
   .cat {
     font-size: clamp(50px, 15vw, 120px);
@@ -3300,7 +3315,8 @@ button.close {
   justify-content: center;
   align-items: center;
   font-size: 4rem;
-  font-family: "SangBleu Empire Trial";
+  font-family: "Cormorant Unicase", serif;
+
   color: white;
   letter-spacing: 5px;
 }
@@ -3316,4 +3332,39 @@ button.close {
 .colorPar {
   color: white;
 }
+
+.aaaa_bbbb {
+  /* transition: 500s; */
+  transition: 2s;
+  font-family: "Parisienne", cursive;
+}
+
+body .header-underneath {
+  font-family: "Allura", cursive;
+  text-align: center;
+  font-size: 13em;
+  transition: none !important;
+}
+
+section.fifth {
+  padding-block: 7.4em;
+}
+
+.mainContentStyle1 .main-col-left {
+  font-size: 5.3em;
+  width: 70%;
+  line-height: 70px;
+  font-family: "Haigrast";
+}
+
+.mainContentStyle1 .main-col-right {
+  font-size: 1.4em;
+  width: 30%;
+}
+
+.mainContentStyle1 span.cursive {
+  /* font-family: "Caveat", cursive; */
+  color: #fff;
+}
+
 /*! ABOUT STYLES END */
