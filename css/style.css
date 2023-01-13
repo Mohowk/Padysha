@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+
+
 @font-face {
-  font-family: "SangBleu Empire Trial";
-  src: url("/fonts/SangBleuEmpireTrial-Regular.woff2");
+  font-family: 'Parisienne cursive';
+  src: url("/fonts.googleapis.com/css2?family=Parisienne&display=swap");
   font-display: swap;
   font-style: normal;
   font-weight: normal;
@@ -188,6 +195,7 @@ section {
   display: block;
   font-size: clamp(60px, 7vw, 140px);
   text-transform: uppercase;
+  font-family: 'Parisienne cursive';
   white-space: nowrap;
   width: 100%;
   transition: all 1.2s ease;
@@ -213,7 +221,16 @@ section {
 .aaaa_bbbb {
   /* transition: 500s; */
   transition: 2s;
+  font-family: 'Allura cursive' !important;
 }
+
+body .header-underneath {
+  font-family: 'Allura cursive';
+  text-align: center;
+  font-size: 13em;
+  transition: none !important;
+}
+
 
 .delay-for-preloader {
   transition-delay: 3s !important;
@@ -223,7 +240,7 @@ section {
   height: 2vh;
   width: 9vw;
   font-style: normal;
-  font-family: "SangBleu Empire Trial";
+  font-family: 'Allura cursive';
   letter-spacing: 1px;
   font-weight: 500;
   font-size: 17px !important;
@@ -342,7 +359,7 @@ section {
   justify-content: center;
   color: rgb(125, 0, 0);
   font-size: 60px;
-  font-family: "SangBleu Empire Trial";
+  font-family: "Allura", cursive;
 }
 .drk2 {
   width: auto;
@@ -418,7 +435,7 @@ nav {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: "SangBleu Empire Trial";
+  font-family: "Parisienne", cursive;
   z-index: 2;
 }
 .cat {
@@ -426,7 +443,7 @@ nav {
   line-height: 130%;
   color: #d0a666;
   /* font-family: Haigrast; */
-  font-family: "SangBleu Empire Trial";
+  font-family: "Parisienne", cursive;
 }
 
 .residents {
